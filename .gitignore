@@ -362,4 +362,43 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 
+# IDEA / ReSharper etc.
 .idea/
+
+# Visual Studio-specifieke bestanden
+.vs/               
+*.user              
+*.suo              
+*.cache             
+*.log              
+
+# Build-output en binairen
+bin/               
+obj/               
+*.dll               
+*.exe              
+*.pdb               
+*.ilk               
+*.aps               
+*.nupkg           
+# NuGet-specifieke bestanden
+.nuget/             
+packages/          
+project.lock.json  
+package-lock.json  
+*.nuget.props       
+*.nuget.targets    
+
+# .NET MAUI en Xamarin-specifieke bestanden
+platforms/         
+AppPackages/
+artifacts/         
+
+# Configuratie- en omgeving bestanden
+*.config         
+*.ini              
+*.env              
+secrets.json      
+
+# macOS-specifieke bestanden
+.DS_Store           
